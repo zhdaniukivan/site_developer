@@ -1,0 +1,16 @@
+[
+{
+    "model": "quiz.level",
+    "pk": 1,
+    "fields": {
+        "title": "admin"
+    }
+},
+{
+    "model": "quiz.level",
+    "pk": 2,
+    "fields": {
+        "title": "user"
+    }
+}
+]
