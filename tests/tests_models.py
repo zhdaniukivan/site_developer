@@ -12,14 +12,14 @@ class QuizModelsTest(TestCase):
 
     def test_fixture_level(self):
         post_count = Level.objects.count()
-        self.assertEqual(post_count, 2)
+        self.assertEqual(post_count, 1)
 
     def test_fixture_language(self):
         post_count = Language.objects.count()
-        self.assertEqual(post_count, 2)
+        self.assertEqual(post_count, 1)
 
     def test_fixture_questions(self):
         post_count = Questions.objects.count()
-        self.assertEqual(post_count, )
+        self.assertEqual(post_count, 1)
 
 
